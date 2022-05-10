@@ -4,6 +4,8 @@ project(03.guess_the_number)
 
 add_executable(guess_the_number
 	guess_the_number.cpp
+    score.h
+    score.cpp
 )
 
 set_target_properties(guess_the_number PROPERTIES
